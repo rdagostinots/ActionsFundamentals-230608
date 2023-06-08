@@ -11,3 +11,8 @@ jobs:
       - name: My First
         run: |
           ls -la
+      - name: Checkout private actions
+        uses: actions/checkout@v2
+        with:
+          repository: https://biosphere.teamsystem.com/teamsystem-enterprise/erp/tsetools/testbuild.git
+          token: KgMuR1JQPXsbexhjMUuM
